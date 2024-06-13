@@ -118,8 +118,8 @@ function playGame(player1, player2, playUntil) {
 }
 
 let roundWinner = playGame(player1, player2, 3);
+// console.log('Winner of the round is ' + roundWinner.name);
 
-console.log('Winner of the round is ' + roundWinner.name);
 
 function playTournament(player1, player2, player3, player4, playUntil) {
     let round1Winner = playGame(player1, player2, playUntil);
